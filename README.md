@@ -1,0 +1,2 @@
+# standalone
+Self-host DOUMA
