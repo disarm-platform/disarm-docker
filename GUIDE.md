@@ -135,6 +135,8 @@ npm i
 Set environment variables:
 ```
 
+export PORT="5000"
+
 # Set secret for api_key generation
 export SECRET="some_secret_can_by_anything"
 
@@ -166,7 +168,7 @@ Create a `Caddyfile` and add your domain.
 
 ```
 api.domain.com {
-  proxy /  :3000
+  proxy /  :5000
 }
 ```
 
