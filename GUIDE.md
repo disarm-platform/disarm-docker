@@ -141,7 +141,7 @@ export PORT="5000"
 export SECRET="some_secret_can_by_anything"
 
 # Insert username and password from mongo setup
-export MONGODB_URI="mongodb://user:password@localhost/douma"
+export MONGODB_URI="mongodb://admin:admin123@localhost:27017/douma?authSource=admin"
 
 # Set SHEETS_URL for remote csv
 export SHEETS_URL="https:https://docs.google.com/spreadsheets......"
