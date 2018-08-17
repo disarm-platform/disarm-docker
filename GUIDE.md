@@ -202,6 +202,13 @@ cd douma-app
 npm i
 ```
 
+Set douma-api urls
+
+```
+export CUSTOM_STAGING_API_URL="https://douma-api-stage.domain.com"
+export CUSTOM_PRODUCTION_API_URL="https://douma-api.domain.com"
+```
+
 Build the app
 
 ```
