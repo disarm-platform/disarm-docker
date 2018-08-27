@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    image: nicolaidavies/douma-app
+    ports:
+     - "5001:80"
+  api:
+    environment:
+      - MONGODB_URI
+      - SHEETS_URL
+      - PORT=3000
+      - SECRET=very_secret
+    image: nicolaidavies/douma-api
+    command: npm run start
+    ports:
+     - "5000:3000"
