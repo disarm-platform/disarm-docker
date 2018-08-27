@@ -11,6 +11,7 @@ Set `MONGODB_URI` to a valid MongoDB url.
 Set `SHEETS_URL` to a csv file formatted for douma-api usage.
 Set `APP_URL` to the url for the app. I.e. `app.disarm.io`.
 Set `API_URL` to the url for the api. I.e. `api.disarm.io`.
+Set `SSL_EMAIL` to a valid email address. The email is used for Let's Encrypt.
 
 Run `docker-compose up`. 
 
