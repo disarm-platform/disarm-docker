@@ -15,7 +15,7 @@ sudo apt install python-certbot-nginx
 
 Request certificates
 ```
-sudo certbot --nginx -d douma.nicolai.io -d douma-api.nicolai.io
+sudo certbot --nginx -d douma.example.com -d douma-api.example.com
 ```
 
 Test auto renewal is setup
