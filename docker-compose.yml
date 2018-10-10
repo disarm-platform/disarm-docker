@@ -43,7 +43,7 @@ services:
       - SHEETS_URL
       - PORT=3000
       - SECRET=very_secret
-    image: disarm/disarm-server
+    image: disarm/disarm-server:feature_config-server-into-disarm-server
     command: npm run start
     expose:
       - "3000"
