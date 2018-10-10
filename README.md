@@ -13,6 +13,6 @@ Set `APP_URL` to the url for the app. I.e. `app.disarm.io`.
 Set `API_URL` to the url for the api. I.e. `api.disarm.io`.
 Set `SSL_EMAIL` to a valid email address. The email is used for Let's Encrypt.
 
-Run `docker-compose up`. 
+Run with something like `SSL_EMAIL=js@ppls.io APP_URL=app.qwkly.com API_URL=api.qwkly.com docker-compose up`. 
 
 You can now access douma-app on `app.disarm.io` and douma-api on `api.disarm.io`.
