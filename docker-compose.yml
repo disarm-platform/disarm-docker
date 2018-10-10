@@ -29,7 +29,7 @@ services:
       - VIRTUAL_HOST=${APP_URL}
       - LETSENCRYPT_HOST=${APP_URL}
       - LETSENCRYPT_EMAIL=${SSL_EMAIL}
-    image: nicolaidavies/douma-app
+    image: disarm/disarm-app
     expose:
       - "80"
   api:
@@ -43,7 +43,7 @@ services:
       - SHEETS_URL
       - PORT=3000
       - SECRET=very_secret
-    image: nicolaidavies/douma-api
+    image: disarm/disarm-server
     command: npm run start
     expose:
       - "3000"
